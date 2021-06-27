@@ -7,8 +7,8 @@ function Avatar(props)
         <Image src={url}
              loading="lazy"
               alt="Profile Picture"
-              height={50}
-              width={50}
+              height={40}
+              width={40}
              className="rounded-full ml-auto cursor-pointer transition duration-150 transform hover:scale-110">
             
         </Image>
