@@ -52,7 +52,7 @@ function Header() {
                         <button hidden type="submit" onClick={search}>Search</button>
                     </form>
 
-                    <Avatar url="https://lh3.googleusercontent.com/a-/AOh14GjfZleZAA2Fsj7VRiwEm9XpOq-PlvWwC4xKbbizfg=s96-c" />
+                    <Avatar url="https://static.thenounproject.com/png/538846-200.png" />
             </div>
         </header>
     )
