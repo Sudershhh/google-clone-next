@@ -52,7 +52,7 @@ export default function Home()
 
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
 
-          <Avatar url="/../public/profile-icon.png" />
+          <Avatar url="https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png" />
 
         </div>
       </header>

@@ -52,7 +52,7 @@ function Header() {
                         <button hidden type="submit" onClick={search}>Search</button>
                     </form>
 
-                    <Avatar url="/../public/profile-icon.png" />
+                    <Avatar url="https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png" />
             </div>
         </header>
     )
