@@ -52,14 +52,14 @@ export default function Home()
 
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
 
-          <Avatar url="https://lh3.googleusercontent.com/a-/AOh14GjfZleZAA2Fsj7VRiwEm9XpOq-PlvWwC4xKbbizfg=s96-c" />
+          <Avatar url="https://static.thenounproject.com/png/538846-200.png" />
 
         </div>
       </header>
 
       <main>
         <form className="flex flex-col items-center mt-44 flex-grow">
-          <Image src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height={100} width={300} />
+          <Image src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height={100} width={300} alt="Google Logo" />
           <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
             <SearchIcon className="h-5 mr-3 text-gray-500" />
             <input type="text" className="focus:outline-none flex-grow" ref={searchRef} />
@@ -67,15 +67,13 @@ export default function Home()
           </div>
 
           <div className="flex flex-col w-1/2 justify-center mt-8 sm:flex-row sm:space-x-4 space-y-2 lg:space-y-0 md:space-y-0">
-
             <button className="btn" onClick={search}>Google Search</button>
-            <button className="btn">I'm Feeling Lucky</button>
-          
+            <button className="btn">I am Feeling Lucky</button>
           </div>
         </form>
       </main>
 
-      <footer className="absolute bottom-0 left-0 w-screen  ">
+      <footer className="absolute bottom-0 left-0 w-full">
         <Footer />
       </footer>
 

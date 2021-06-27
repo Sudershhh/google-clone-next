@@ -31,6 +31,7 @@ function Header() {
                         src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
                         height={40}
                         width={120}
+                        alt="Google Logo"
                         onClick={() => router.push("/") }
                         className="cursor-pointer"
                         />
