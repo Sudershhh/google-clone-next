@@ -17,7 +17,7 @@
 This site is built on React.js and stacked with Next.js on top. Enter your search queries and the site routes you to another page with search results obtained from the Google search API with pagination support.
 
 ## Deployed Site
-[Google Clone](https://google-clone-next-lake.vercel.app/)
+[Google Clone](https://google-clone-next-r64qcm1y5-sudershhh.vercel.app/)
 
 
 
