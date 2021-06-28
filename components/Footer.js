@@ -2,7 +2,7 @@ import {GlobeIcon} from "@heroicons/react/solid"
 
 function Footer() {
     return (
-        <section className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100">
+        <footer className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100">
             <div className="px-8 py-3">
                 <p>India</p>
             </div>
@@ -21,7 +21,7 @@ function Footer() {
                     <p>Settings</p>
                 </div>
             </div>
-        </section>
+        </footer>
     )
 }
 

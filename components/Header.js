@@ -39,7 +39,7 @@ function Header() {
                     <form className="flex flex-grow border border-gray-200 rounded-full shadow-lg max-w-3xl items-center px-6 py-3 ml-10 mr-5">
                         <input type="text" ref={searchInputRef} className="flex-grow w-full focus:outline-none" defaultValue={router.query.term} />
                         <XIcon  
-                            className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
+                            className="h-7 sm:mr-1 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
                             onClick={() => searchInputRef.current.value =""}
                         />
 
@@ -47,12 +47,12 @@ function Header() {
                                         className="h-6 mr-3 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"
                         />
 
-                        <SearchIcon  className="h-6 sm:inline-flex text-blue-500" onClick={search} />
+                        <SearchIcon  className="h-6 sm:inline-flex text-blue-500 ml-1" onClick={search} />
                     
                         <button hidden type="submit" onClick={search}>Search</button>
                     </form>
 
-                    <Avatar url="https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png" />
+                    {/* <Avatar url="https://www.seekpng.com/png/detail/41-410093_circled-user-icon-user-profile-icon-png.png" /> */}
             </div>
         </header>
     )
